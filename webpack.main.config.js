@@ -7,5 +7,17 @@ module.exports = {
   // Put your normal webpack config below here
   module: {
     rules: require('./webpack.rules'),
+    rules:[
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        
+        use: [
+
+        {
+          loader: 'file-loader',
+        },
+        ],
+      },
+    ],
   },
 };
