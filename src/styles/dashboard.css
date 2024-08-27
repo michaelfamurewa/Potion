@@ -1,0 +1,145 @@
+.dashBoard {
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.backImage {
+    width: 35rem;
+    height: 15rem;
+    background-color: #302E2E;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.toDo {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    height: 26rem;
+    margin-left: 1rem;
+    background-color: #302E2E;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.addTodo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    align-self: center;
+    margin-bottom: 0.75rem;
+}
+
+.addTodo input {
+    border-style: none;
+    outline: none;
+    background-color: #302E2E;
+    border-bottom: solid 0.05rem #9381FF;
+    font-family: 'Roboto Mono Variable';
+    color: white;
+    width: 11rem;
+    margin-right: 0.25rem;
+}
+
+.addTodo svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.list {
+    padding: 0;
+    padding-left: 1rem;
+}
+
+.todoHolder {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkTodo {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: #302E2E;
+    border-radius: 0.25rem;
+    border: solid 0.1rem #9381FF;
+    cursor: pointer;
+    margin-top: 0.75rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkTodo:checked {
+    background-color: #9381FF;
+}
+
+.todoItem {
+    list-style: none;
+    background-color: #141414;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    width: max-content;
+    font-size: 0.75rem;
+}
+
+.quoteBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    height: max-content;
+    background-color: #9381FF;
+    border-radius: 1rem;
+    transform: translateX(36rem);
+}
+
+.quoteBox span {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.quoteBox span:nth-of-type(2) {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: #302E2E;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    margin-top: 1rem;
+    height: 14rem;
+}
+
+.recents {
+    margin-top: 2rem;
+    width: 35rem;
+    height: 10rem;
+    background-color: #302E2E;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.sectionHeader {
+    padding: 0.15rem 0.75rem;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 0.75rem;
+    width: max-content;
+    margin-top: 0.5rem;
+    margin-left: 0.75rem;
+    background-color: #9381FF;
+    color: #141414;
+    height: 1.25rem;
+    border-radius: 1rem;
+}

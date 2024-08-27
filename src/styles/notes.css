@@ -1,0 +1,31 @@
+section {
+    margin: 0;
+    margin-left: 10rem;
+    background-color: #161618;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+textarea {
+    background-color: #262626;
+    color: white;
+    border-style: none;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 1rem;
+    width: 50rem;
+}
+
+#heading {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+}
+
+#noteBody {
+    margin-top: 2rem;
+    font-size: 1rem;
+    position: fixed;
+    height: 100vh;
+}
